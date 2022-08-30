@@ -1,5 +1,6 @@
 arr=[]
-n=int(input("enter number of input:"))
+n=int(input("enter number of input:"dir
+            ))
 for i in range(0,n):
     no=int(input())
     arr.append(no)
