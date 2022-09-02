@@ -1,4 +1,3 @@
-import numpy
 import numpy as np
 
 #using lsit for the creation of array
