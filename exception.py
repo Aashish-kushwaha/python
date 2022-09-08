@@ -1,5 +1,5 @@
 try:
-    number=int(input())
+    number = int(input())
     print(number)
 except:
-    print( "invalid3")
+    print("invalid3")
