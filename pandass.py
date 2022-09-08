@@ -86,5 +86,15 @@ pandas OPERATION
 ->applying function to the data
 ->string processing operations
 ->histogramming
-
 '''
+# descriptive operation
+print(df.mean())
+print()
+print(df.mean(1))
+print()
+ss=pd.Series([1,2,3,np.nan,4,5,6,7,8,9],index=[1,2,3,4,5,6,7,8,9,10]).shift(2)
+print()
+print(ss)
+
+# applying function
+print(df.apply(lambda x:x.max()-x.min()))
