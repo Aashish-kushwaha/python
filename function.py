@@ -60,7 +60,7 @@ def fun2(a,b):
 print(fun2(10,20))
 
 # variable arguments
-# when we do not know that how many agruments we want to pass we use variable aruments
+# when we do not know that how many arguments we want to pass we use variable arguments
 def fun3(*args):
     result=0
     for x in args:
@@ -69,4 +69,10 @@ def fun3(*args):
 
 print(fun3(1,2,3,4,5,6))
 
-#
+#keyword arguements
+# when we pass variable length arguments with their keywords
+def fun8(**k):
+    for i,j in k.items():
+            print(i,j)
+
+fun8(name="navin",age=89,city="mumbai")
