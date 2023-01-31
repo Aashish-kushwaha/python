@@ -1,0 +1,13 @@
+#python classes and objects
+'''
+python is an object oriented programming language
+almost everything in python is its object and methods.
+ A class is like an object constructor, or a "blueprint" for creating objects.
+ to creat ea class , use the keyword class
+'''
+
+class Myclass:
+    x=5
+
+o=Myclass()
+print(o.x)
